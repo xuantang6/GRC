@@ -1,6 +1,6 @@
 <?php 
 
-//$user = 'root';
+//$user = 'root'; //jjj
 //$pass = '';
 //$db = 'cts';
 
