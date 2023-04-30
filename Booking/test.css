@@ -1,0 +1,184 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10 Mar 2023, 7:10:54 pm
+    Author     : 60174
+*/
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: black !important; /* Fallback color */
+}
+
+/* Modal Content */
+.modal-content {
+  margin: auto;
+  padding: 20px; 
+  width: 70%;
+}
+
+/* The Close Button */
+.close {  
+  position: absolute;
+  left: 68%;
+  top: 70px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: rgb(180,180,180);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+div.classic {
+    display: block;
+    position: relative;
+    top: -50px;
+    margin: auto;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    width: 42%;
+    padding: 15px;
+    text-align: center;
+    font: bold 20px sans-serif; 
+    cursor: pointer;
+    z-index: 2;
+    border: 1px solid grey;
+}
+
+.arrow::before, .arrow::after {
+    position: absolute;
+    left: 88%;
+    top: 28px;
+    content: '';
+    display: block;
+    width: 12px;
+    height: 2px;
+    background-color: white; 
+    transition: 0.6s linear;
+}
+
+.arrow::before {
+    transform: rotate(45deg);
+}
+
+.arrow::after { 
+    position: absolute;
+    left: 89.5%;
+    top: 28px;
+    transform: rotate(-45deg);
+}
+
+.active::before {
+    transform: rotate(-45deg);
+}
+
+.active::after {
+    transform: rotate(45deg);
+}
+
+.dropdown {
+  position: absolute;
+  left: 34.25%;
+  top: 100px;
+  width: 29.12%;
+  height: 250px;
+  color: white;
+  font: bold 20px sans-serif;
+  background-color: black;
+  border: 1px solid grey;
+  padding: 10px;
+  padding-left: 25px;
+  max-height: 0vh;
+  overflow: hidden;
+  transition: all 0.8s linear;
+}
+
+.dropdown-active {
+    max-height: 100vh;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex1 {
+    flex-basis: 65%;
+}
+
+.flex2 {
+    flex-basis: 35%;
+}
+
+.pos1 {
+    padding-left: 25px;   
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.pos2 {
+    padding-top: 60px;
+    padding-bottom: 20px;    
+    padding-right: 25px;
+}
+
+.button1 {
+    color: white;
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    transform: scaleX(3.8) scaleY(2);
+}
+
+.button2 {
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transform: scale(2.5);
+}
+
+#adultQty, #childQty {   
+    font: bold 15px sans-serif;
+    text-align: center;
+    color: red;
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: text;
+    transform: scaleX(1.3) scaleY(2);
+    margin: auto;
+}
+
+.flex-container2 {
+    display: flex;
+    width: 100%;
+}
+
+.flex3 {
+    flex-basis: 25%;
+}
+
+.flex4 {
+    flex-basis: 45%;
+    z-index: 2;
+}
+
+.flex5 {
+    flex-basis: 30%;
+}

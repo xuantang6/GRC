@@ -1,0 +1,99 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 8 Apr 2023, 9:14:32 pm
+    Author     : 60174
+*/
+
+.header {
+    font: bold 20px sans-serif;
+}
+
+.arrow {
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 100%;
+    margin-left: 1%;
+    padding: 11px 0.8%;
+    transition: all 0.2s;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0.1);
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+/*    margin-top: 30px;
+    position: relative;*/
+}
+
+.left, .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
+    position: relative;
+}
+
+.right {
+    flex-grow: 2;
+}
+
+.left-arrange {
+    position: absolute;
+    right: 5%;
+}
+
+.right-arrange {
+    position: absolute;
+    left: 2%;
+    width: 100%;
+}
+
+.progressBar {
+    width: 85%;
+    margin: 12px 0;
+}
+
+.progress-label-left {
+    position: relative;
+    top: -4px;
+}
+
+.progress {
+    height: 10px;
+    width: 90%;
+}
+
+.avgRate {
+    text-align: center;
+    font: 50px Calibri;
+}
+
+.total-review {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.progress-label-left {
+    float: left;
+    margin-right: 0.5em;
+    line-height: 1em;
+}
+
+.progress-label-right {
+    float: right;
+    margin-left: 0.3em;
+    line-height: 1em;
+}
+
+.star-light {
+    color:#e9ecef;
+}
