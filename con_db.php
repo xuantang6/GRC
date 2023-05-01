@@ -20,7 +20,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
         if(!$con){
             die(mysqli_error($con));
         }
-        
+        1234567890
                 
                 
                 
