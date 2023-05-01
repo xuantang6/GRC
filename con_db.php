@@ -21,7 +21,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Scripting/EmptyPHPWebPage.php to 
             die(mysqli_error($con));
         }
         
-                
+        123        
                 
                 
         ?>
